@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on digitalreformer.com</title>
+    <link>digitalreformer.com/tags/</link>
+    <description>Recent content in Tags on digitalreformer.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2019 02:07:28 -0400</lastBuildDate>
+    
+	<atom:link href="digitalreformer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bill Nelson Cpa</title>
+      <link>digitalreformer.com/tags/bill-nelson-cpa/</link>
+      <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
+      
+      <guid>digitalreformer.com/tags/bill-nelson-cpa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>digitalreformer.com/tags/posts/</link>
+      <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
+      
+      <guid>digitalreformer.com/tags/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>digitalreformer.com/tags/test/</link>
+      <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
+      
+      <guid>digitalreformer.com/tags/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

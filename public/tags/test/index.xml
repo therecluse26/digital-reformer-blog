@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on digitalreformer.com</title>
+    <link>digitalreformer.com/tags/test/</link>
+    <description>Recent content in Test on digitalreformer.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2019 02:07:28 -0400</lastBuildDate>
+    
+	<atom:link href="digitalreformer.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing 123</title>
+      <link>digitalreformer.com/posts/testing-123/</link>
+      <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
+      
+      <guid>digitalreformer.com/posts/testing-123/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>digitalreformer.com/posts/lorem-ipsum/</link>
+      <pubDate>Sat, 14 Sep 2019 02:00:27 -0400</pubDate>
+      
+      <guid>digitalreformer.com/posts/lorem-ipsum/</guid>
+      <description>HTML Ipsum Presents Google.com Wikipedia
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</description>
+    </item>
+    
+  </channel>
+</rss>

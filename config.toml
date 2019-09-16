@@ -1,0 +1,6 @@
+baseURL = "digitalreformer.com"
+languageCode = "en-us"
+title = "digitalreformer.com"
+theme = "digital-puritan"
+author = "therecluse26"
+pygmentsUseClasses = true
