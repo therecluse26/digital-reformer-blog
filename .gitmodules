@@ -1,0 +1,3 @@
+[submodule "themes"]
+	path = themes
+	url = git@github.com:therecluse26/digital-puritan-hugo.git
