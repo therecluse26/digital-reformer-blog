@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Hosting this site</title>
+      <link>digitalreformer.com/posts/hosting-this-site/</link>
+      <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
+      
+      <guid>digitalreformer.com/posts/hosting-this-site/</guid>
+      <description>{{ $path := printf &amp;ldquo;%s%s&amp;rdquo; &amp;ldquo;/public&amp;rdquo; $sized.RelPermalink }}
+{{ $stats := os.Stat $path }} {{ $stats.Size }}</description>
+    </item>
+    
+    <item>
       <title>Testing 123</title>
       <link>digitalreformer.com/posts/testing-123/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>

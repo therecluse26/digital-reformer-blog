@@ -40,6 +40,17 @@
 
 <div class="content-list">
 
+    <a href="digitalreformer.com/posts/hosting-this-site/" navlink>Hosting this site</a> -
+
+    <small>{{ $path := printf &ldquo;%s%s&rdquo; &ldquo;/public&rdquo; $sized.RelPermalink }}
+{{ $stats := os.Stat $path }} {{ $stats.Size }}</small>
+
+</div>
+
+
+
+<div class="content-list">
+
     <a href="digitalreformer.com/posts/lorem-ipsum/" navlink>Lorem Ipsum</a> -
 
     <small>HTML Ipsum Presents Google.com Wikipedia
