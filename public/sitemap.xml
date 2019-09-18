@@ -3,69 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>digitalreformer.com/posts/hosting-this-site/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/posts/hosting-this-site/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
   </url>
   
   <url>
-    <loc>digitalreformer.com/posts/testing-123/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/posts/testing-123/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
   </url>
   
   <url>
-    <loc>digitalreformer.com/posts/lorem-ipsum/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/posts/lorem-ipsum/</loc>
     <lastmod>2019-09-14T02:00:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>digitalreformer.com/tags/bill-nelson-cpa/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/authors/therecluse26/</loc>
+  </url>
+  
+  <url>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/bill-nelson-cpa/</loc>
+    <lastmod>2019-09-14T02:00:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/hosting/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>digitalreformer.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>digitalreformer.com/tags/hosting/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/posts/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>digitalreformer.com/posts/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/posts/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>digitalreformer.com/tags/posts/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/</loc>
+    <lastmod>2019-09-14T02:00:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/tech/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>digitalreformer.com/tags/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/test/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>digitalreformer.com/tags/tech/</loc>
-    <lastmod>2019-09-14T02:07:28-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>digitalreformer.com/tags/test/</loc>
-    <lastmod>2019-09-14T02:07:28-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>digitalreformer.com/</loc>
+    <loc>https://f001.backblazeb2.com/file/DigitalReformerBlog/</loc>
     <lastmod>2019-09-14T02:07:28-04:00</lastmod>
     <priority>0</priority>
   </url>

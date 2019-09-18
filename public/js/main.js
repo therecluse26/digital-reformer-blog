@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 let fillCmdPath = (event) => {
   if (event.path[0].attributes.navlink) {
     pathText = "cd " + event.target.text;
+  } else if (event.path[0].attributes.tag) {
+    pathText = "ls $HOME/tags | grep " + event.path[0].attributes.tag.value;
   } else {
     pathText = "xdg-open " + event.path[0].href;
   }
