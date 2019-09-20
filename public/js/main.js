@@ -14,7 +14,7 @@ let fillCmdPath = (event) => {
   if (event.path[0].attributes.navlink) {
     pathText = "cd " + event.target.text;
   } else if (event.path[0].attributes.tag) {
-    pathText = "ls $HOME/tags | grep " + event.path[0].attributes.tag.value;
+    pathText = `find $HOME/tags -name '${event.path[0].attributes.tag.value}*' -maxdepth 1`;
   } else {
     pathText = "xdg-open " + event.path[0].href;
   }
