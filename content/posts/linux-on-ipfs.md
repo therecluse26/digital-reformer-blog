@@ -15,6 +15,11 @@ Chroot jails to the rescue!
 
 For those of you who don't know, `chroot` is a built-in Unix command that allows you to change the apparent root of a running process to the directory you specify. Yes, that's confusing, but you can think of it as an early precursor to container technology, and is actually a pretty common technique to use within the Linux ecosystems, particularly in setting up live environments and as part of the installation process for a lot of distros. While tools like `Docker` are a staple of current-day cloud architecture, it's a tad bit of overkill for what we're trying to accomplish here, and it'll actually be easier to accomplish with simple built-in Unix utilities.
 
+So let's start by downloading our Arch `bootstrap image` (https://www.archlinux.org/download/) and unpacking it into a new directory under `/mnt` (this can go anywhere, I'm just following convention).
+
+
+
+
 The much, *much* trickier part will be getting this to work on bare-metal hardware, but more on that later... one step at a time.
 
 
@@ -27,3 +32,6 @@ Now, as I said previously, getting this to run on bare-metal hardware is going t
 Persistance is another problem that we'll have to solve. IPFS being a distributed filesystem and all, we need peers in order to retain our data. There is no single centralized location storing this information (unless you only have 1 peer, I guess), so we'll need to get a peer hooked up to this and indexing everything.
 
 Despite how absurd this obviously is, one nice side-effect of it is that I've effectively installed Linux onto an infinitely-sized drive. That's pretty cool, but we're still limited by the total storage availability of our peers, and we also require them to be seeding the data back to us in order for this to work. 
+
+
+
