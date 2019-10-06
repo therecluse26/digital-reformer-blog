@@ -1,0 +1,6 @@
+<base href="{{ .Site.BaseURL }}">
+{{ $style := resources.Get "sass/main.scss" | resources.ToCSS "css/main.css" | resources.Minify }}
+{{ $jsmain := resources.Get "js/main.js" | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<script src="{{ .Site.BaseURL }}js/typed.min.js"></script>
+<script src="{{ $jsmain.Permalink }}"></script>

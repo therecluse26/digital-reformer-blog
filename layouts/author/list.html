@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<div class="content-list">
+
+    <a href="{{ .RelPermalink }}" navlink>{{ .Title }}</a> {{ if .Summary }}-{{end}}
+
+    <small>{{ .Summary }}</small>
+
+</div>
+
+{{ end }}
+{{ end }}

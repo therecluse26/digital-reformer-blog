@@ -2,18 +2,41 @@
 title: "Testing 123"
 date: 2019-09-14T02:07:28-04:00
 draft: false
+author: "therecluse26"
 tags: ["Test", "Posts"]
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore `magna aliquyam erat`, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 
-{{< highlight go "hl_lines=3-5" >}}
-testVar := 123
-stringVar := "blah"
-func testFunc() bool {
-    return true;
+{{< highlight go "hl_lines=3-8" >}}
+
+// DisableFlagsInUseLine sets the DisableFlagsInUseLine flag on all
+// commands within the tree rooted at cmd.
+func DisableFlagsInUseLine(cmd *cobra.Command) {
+	VisitAll(cmd, func(ccmd *cobra.Command) {
+		// do not add a `[flags]` to the end of the usage line.
+		ccmd.DisableFlagsInUseLine = true
+	})
 }
+
+var helpCommand = &cobra.Command{
+	Use:               "help [command]",
+	Short:             "Help about the command",
+	PersistentPreRun:  func(cmd *cobra.Command, args []string) {},
+	PersistentPostRun: func(cmd *cobra.Command, args []string) {},
+	RunE: func(c *cobra.Command, args []string) error {
+		cmd, args, e := c.Root().Find(args)
+		if cmd == nil || e != nil || len(args) > 0 {
+			return errors.Errorf("unknown help topic: %v", strings.Join(args, " "))
+		}
+
+		helpFunc := cmd.HelpFunc()
+		helpFunc(cmd, args)
+		return nil
+	},
+}
+
 {{< / highlight >}}
 
 

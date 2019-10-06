@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ $author := index .Site.Data.authors .Params.author }}
+
+{{ $author.username }}
+
+
+
+{{ end }}

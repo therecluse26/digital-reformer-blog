@@ -11,10 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 let fillCmdPath = (event) => {
-  if (event.path[0].attributes.navlink) {
-    pathText = "cd " + event.target.text;
+  if (event.path[0].attributes.homelink) {
+    pathText = `cd ~/`;
+  } else if (event.path[0].attributes.navlink) {
+    pathText = `cd ~/${event.target.text}`;
+  } else if (event.path[0].attributes.parentPath) {
+    pathText = `cd ~/${event.path[0].attributes.parentPath.value}/${event.target.text}`;
   } else if (event.path[0].attributes.tag) {
-    pathText = `find $HOME/tags -name '${event.path[0].attributes.tag.value}*' -maxdepth 1`;
+    pathText = `find ~/tags -name '${event.path[0].attributes.tag.value}*' -maxdepth 1`;
   } else {
     pathText = "xdg-open " + event.path[0].href;
   }

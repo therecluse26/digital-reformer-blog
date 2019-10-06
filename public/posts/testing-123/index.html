@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html><base href="https://f001.backblazeb2.com/file/DigitalReformerBlog">
 
-<link rel="stylesheet" href="https://f001.backblazeb2.com/file/DigitalReformerBlog/css/main.min.css">
+
+<link rel="stylesheet" href="https://f001.backblazeb2.com/file/DigitalReformerBlog/sass/main.scss">
 <script src="https://f001.backblazeb2.com/file/DigitalReformerBlogjs/typed.min.js"></script>
-<script src="https://f001.backblazeb2.com/file/DigitalReformerBlogjs/main.js"></script><body><div class="header">
+<script src="https://f001.backblazeb2.com/file/DigitalReformerBlog/js/main.js"></script><body><div class="header">
     <div class="file-path">
         <span class="user-text">root@digitalreformer.com</span>
         <b>:</b>
@@ -15,9 +16,10 @@
     <nav>
         <ul>
             <li>
-                <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog" navlink>$HOME</a>
+                <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog" homelink>$HOME</a>
                 <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog/posts" navlink>posts</a>
-                <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog/categories" navlink>categories</a>
+                <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog/authors" navlink>authors</a>
+                <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog/tags" navlink>tags</a>
                 <a href="https://f001.backblazeb2.com/file/DigitalReformerBlog/about" navlink>about</a>
             </li>
         </ul>
@@ -25,23 +27,48 @@
     
 </div><div id="content" class="container">
 
-
 <div class="content-panes">
 
     <div class="content">
         <h1>Testing 123</h1>
         
         <div class="author-info">
-            {        map[]}
+            
+                
+                <a href="/authors/therecluse26" parentPath="authors">therecluse26</a>
+                
+            
         </div>
 
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        2019-09-14 02:07:28 -0400 EDT
 
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">testVar</span> <span class="o">:=</span> <span class="mi">123</span>
-<span class="nx">stringVar</span> <span class="o">:=</span> <span class="s">&#34;blah&#34;</span>
-<span class="hl"><span class="kd">func</span> <span class="nf">testFunc</span><span class="p">()</span> <span class="kt">bool</span> <span class="p">{</span>
-</span><span class="hl">    <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-</span><span class="hl"><span class="p">}</span></span></code></pre></div>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore <code>magna aliquyam erat</code>, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// DisableFlagsInUseLine sets the DisableFlagsInUseLine flag on all
+</span><span class="c1">// commands within the tree rooted at cmd.
+</span><span class="hl"><span class="c1"></span><span class="kd">func</span> <span class="nf">DisableFlagsInUseLine</span><span class="p">(</span><span class="nx">cmd</span> <span class="o">*</span><span class="nx">cobra</span><span class="p">.</span><span class="nx">Command</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hl">	<span class="nf">VisitAll</span><span class="p">(</span><span class="nx">cmd</span><span class="p">,</span> <span class="kd">func</span><span class="p">(</span><span class="nx">ccmd</span> <span class="o">*</span><span class="nx">cobra</span><span class="p">.</span><span class="nx">Command</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="hl">		<span class="c1">// do not add a `[flags]` to the end of the usage line.
+</span></span><span class="hl"><span class="c1"></span>		<span class="nx">ccmd</span><span class="p">.</span><span class="nx">DisableFlagsInUseLine</span> <span class="p">=</span> <span class="kc">true</span>
+</span><span class="hl">	<span class="p">})</span>
+</span><span class="hl"><span class="p">}</span>
+</span>
+<span class="kd">var</span> <span class="nx">helpCommand</span> <span class="p">=</span> <span class="o">&amp;</span><span class="nx">cobra</span><span class="p">.</span><span class="nx">Command</span><span class="p">{</span>
+	<span class="nx">Use</span><span class="p">:</span>               <span class="s">&#34;help [command]&#34;</span><span class="p">,</span>
+	<span class="nx">Short</span><span class="p">:</span>             <span class="s">&#34;Help about the command&#34;</span><span class="p">,</span>
+	<span class="nx">PersistentPreRun</span><span class="p">:</span>  <span class="kd">func</span><span class="p">(</span><span class="nx">cmd</span> <span class="o">*</span><span class="nx">cobra</span><span class="p">.</span><span class="nx">Command</span><span class="p">,</span> <span class="nx">args</span> <span class="p">[]</span><span class="kt">string</span><span class="p">)</span> <span class="p">{},</span>
+	<span class="nx">PersistentPostRun</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="nx">cmd</span> <span class="o">*</span><span class="nx">cobra</span><span class="p">.</span><span class="nx">Command</span><span class="p">,</span> <span class="nx">args</span> <span class="p">[]</span><span class="kt">string</span><span class="p">)</span> <span class="p">{},</span>
+	<span class="nx">RunE</span><span class="p">:</span> <span class="kd">func</span><span class="p">(</span><span class="nx">c</span> <span class="o">*</span><span class="nx">cobra</span><span class="p">.</span><span class="nx">Command</span><span class="p">,</span> <span class="nx">args</span> <span class="p">[]</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span> <span class="p">{</span>
+		<span class="nx">cmd</span><span class="p">,</span> <span class="nx">args</span><span class="p">,</span> <span class="nx">e</span> <span class="o">:=</span> <span class="nx">c</span><span class="p">.</span><span class="nf">Root</span><span class="p">().</span><span class="nf">Find</span><span class="p">(</span><span class="nx">args</span><span class="p">)</span>
+		<span class="k">if</span> <span class="nx">cmd</span> <span class="o">==</span> <span class="kc">nil</span> <span class="o">||</span> <span class="nx">e</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="o">||</span> <span class="nb">len</span><span class="p">(</span><span class="nx">args</span><span class="p">)</span> <span class="p">&gt;</span> <span class="mi">0</span> <span class="p">{</span>
+			<span class="k">return</span> <span class="nx">errors</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;unknown help topic: %v&#34;</span><span class="p">,</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Join</span><span class="p">(</span><span class="nx">args</span><span class="p">,</span> <span class="s">&#34; &#34;</span><span class="p">))</span>
+		<span class="p">}</span>
+
+		<span class="nx">helpFunc</span> <span class="o">:=</span> <span class="nx">cmd</span><span class="p">.</span><span class="nf">HelpFunc</span><span class="p">()</span>
+		<span class="nf">helpFunc</span><span class="p">(</span><span class="nx">cmd</span><span class="p">,</span> <span class="nx">args</span><span class="p">)</span>
+		<span class="k">return</span> <span class="kc">nil</span>
+	<span class="p">},</span>
+<span class="p">}</span></code></pre></div>
 
 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
@@ -52,6 +79,7 @@
 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut laboreet dolore magna aliquyam erat.</p>
 
 <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
 
     </div>
 

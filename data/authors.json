@@ -1,0 +1,25 @@
+[
+    {
+        "username": "therecluse26",
+        "name": "Brad",
+        "bio": "Just a dude",
+        "image": "/media/authors/therecluse26.png",
+        "icon": "",
+        "weight": 1,
+        "social": {
+            "github": "https://www.github.com/therecluse26",
+            "twitter": "@therecluse26"
+        }
+    },
+    {
+        "username": "maffblaster",
+        "name": "Matthew",
+        "bio": "Another dude",
+        "image": "/media/authors/maffblaster.png",
+        "icon": "",
+        "weight": 2,
+        "social": {
+            "github": "https://www.github.com/digitalsurvival"
+        }
+    }
+]

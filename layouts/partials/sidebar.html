@@ -1,0 +1,23 @@
+{{ $tags := .Params.tags }}
+{{ $baseUrl := .Site.BaseURL }}
+
+<div class="sidebar">
+
+    <div class="content-tags">Tags: 
+        {{ range $tag := $tags }} 
+        <a href="{{ $baseUrl }}tags/{{ urlize $tag }}" tag="{{ urlize $tag }}"><small>{{ $tag }}</small></a>  
+        {{ end }}
+    </div>
+
+
+
+    <div class="related-posts">
+    </div>
+
+    <form id="email-signup" action="#">
+        <label for="email"><small>Mailing list signup</small></label>
+        <input name="email" type="email" placeholder="Email" required>
+        <input type="submit" id="email-submit" value="Sign Up">
+    </form>
+
+</div>

@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="file-path">
+        <span class="user-text">root@{{- .Site.Title -}}</span>
+        <b>:</b>
+        <span class="path-text">~{{- .RelPermalink -}}</span>
+        <b>#</b>&nbsp;
+        <span id="hover-path"></span>
+        <span class="blink"> &#9608;</span>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ .Site.BaseURL }}" homelink>$HOME</a>
+                <a href="{{ .Site.BaseURL }}/posts" navlink>posts</a>
+                <a href="{{ .Site.BaseURL }}/authors" navlink>authors</a>
+                <a href="{{ .Site.BaseURL }}/tags" navlink>tags</a>
+                <a href="{{ .Site.BaseURL }}/about" navlink>about</a>
+            </li>
+        </ul>
+    </nav>
+    
+</div>
