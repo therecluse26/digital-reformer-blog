@@ -6,10 +6,19 @@
     <description>Recent content on digitalreformer.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2019 02:07:28 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 22:33:12 -0400</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloud Retroarch</title>
+      <link>http://localhost:1313/posts/cloud-retroarch/</link>
+      <pubDate>Sat, 12 Oct 2019 22:33:12 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/cloud-retroarch/</guid>
+      <description>In today&amp;rsquo;s installment of &amp;ldquo;let&amp;rsquo;s cloud all the things,&amp;rdquo; I want to give myself access to my wonderful RetroArch game library from more than just my Raspberry Pi. I want to be able to access my exact same games (with saves included) from any location. Can I pull it off? At the time of writing this sentence, I actually have no idea, but let&amp;rsquo;s give it a shot!</description>
+    </item>
     
     <item>
       <title>Hosting this site</title>
