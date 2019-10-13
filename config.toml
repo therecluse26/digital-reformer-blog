@@ -1,4 +1,4 @@
-baseURL = "https://f001.backblazeb2.com/file/DigitalReformerBlog"
+baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "digitalreformer.com"
 theme = "digital-puritan"

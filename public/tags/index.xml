@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on digitalreformer.com</title>
-    <link>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on digitalreformer.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Sep 2019 02:00:27 -0400</lastBuildDate>
     
-	<atom:link href="https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bill Nelson Cpa</title>
-      <link>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/bill-nelson-cpa/</link>
+      <link>http://localhost:1313/tags/bill-nelson-cpa/</link>
       <pubDate>Sat, 14 Sep 2019 02:00:27 -0400</pubDate>
       
-      <guid>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/bill-nelson-cpa/</guid>
+      <guid>http://localhost:1313/tags/bill-nelson-cpa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hosting</title>
-      <link>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/hosting/</link>
+      <link>http://localhost:1313/tags/hosting/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
       
-      <guid>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/hosting/</guid>
+      <guid>http://localhost:1313/tags/hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/posts/</link>
+      <link>http://localhost:1313/tags/posts/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
       
-      <guid>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/posts/</guid>
+      <guid>http://localhost:1313/tags/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
       
-      <guid>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/test/</link>
+      <link>http://localhost:1313/tags/test/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
       
-      <guid>https://f001.backblazeb2.com/file/DigitalReformerBlog/tags/test/</guid>
+      <guid>http://localhost:1313/tags/test/</guid>
       <description></description>
     </item>
     
