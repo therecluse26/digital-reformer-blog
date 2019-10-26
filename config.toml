@@ -4,3 +4,5 @@ title = "digitalreformer.com"
 theme = "digital-puritan"
 author = "therecluse26"
 pygmentsUseClasses = true
+pygmentsCodeFences            = true
+pygmentsCodeFencesGuessSyntax = true
