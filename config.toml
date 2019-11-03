@@ -6,3 +6,12 @@ author = "therecluse26"
 pygmentsUseClasses = true
 pygmentsCodeFences            = true
 pygmentsCodeFencesGuessSyntax = true
+
+[module]
+  noProxy = "none"
+  private = "*.*"
+  proxy = "direct"
+
+   [[module.mounts]]
+    source = "themes"
+    target = "themes"
