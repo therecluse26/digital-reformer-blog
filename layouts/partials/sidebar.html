@@ -1,5 +1,17 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+
+{{ with $related }}
 <div class="related-posts">
+    Related Posts
+    <ul>
+        {{ range . }}
+            <li>
+                <a href="{{ .RelPermalink }}" navlink>{{ .Title }}</a>
+            </li>
+        {{ end }}
+    </ul>
 </div>
+{{ end }}
 
 <form id="email-signup" action="#">
     <label for="email"><small>Mailing list signup</small></label>

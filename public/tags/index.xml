@@ -6,22 +6,13 @@
     <description>Recent content in Tags on digitalreformer.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2019 02:00:27 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 22:33:12 -0400</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bill Nelson Cpa</title>
-      <link>http://localhost:1313/tags/bill-nelson-cpa/</link>
-      <pubDate>Sat, 14 Sep 2019 02:00:27 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/bill-nelson-cpa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
+      <title>cloud</title>
       <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Sat, 12 Oct 2019 22:33:12 -0400</pubDate>
       
@@ -30,7 +21,7 @@
     </item>
     
     <item>
-      <title>Gaming</title>
+      <title>gaming</title>
       <link>http://localhost:1313/tags/gaming/</link>
       <pubDate>Sat, 12 Oct 2019 22:33:12 -0400</pubDate>
       
@@ -39,7 +30,16 @@
     </item>
     
     <item>
-      <title>Hosting</title>
+      <title>tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Sat, 12 Oct 2019 22:33:12 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hosting</title>
       <link>http://localhost:1313/tags/hosting/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
       
@@ -57,20 +57,20 @@
     </item>
     
     <item>
-      <title>Tech</title>
-      <link>http://localhost:1313/tags/tech/</link>
-      <pubDate>Sat, 12 Oct 2019 22:33:12 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Test</title>
       <link>http://localhost:1313/tags/test/</link>
       <pubDate>Sat, 14 Sep 2019 02:07:28 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bill Nelson, CPA</title>
+      <link>http://localhost:1313/tags/bill-nelson-cpa/</link>
+      <pubDate>Sat, 14 Sep 2019 02:00:27 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/bill-nelson-cpa/</guid>
       <description></description>
     </item>
     
